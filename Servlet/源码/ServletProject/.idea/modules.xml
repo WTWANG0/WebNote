@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ServletProject.iml" filepath="$PROJECT_DIR$/ServletProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testCookie/testCookie.iml" filepath="$PROJECT_DIR$/testCookie/testCookie.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testDomainObject/testDomainObject.iml" filepath="$PROJECT_DIR$/testDomainObject/testDomainObject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testHttpSession/testHttpSession.iml" filepath="$PROJECT_DIR$/testHttpSession/testHttpSession.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testLogin/testLogin.iml" filepath="$PROJECT_DIR$/testLogin/testLogin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testServlet1/testServlet1.iml" filepath="$PROJECT_DIR$/testServlet1/testServlet1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testServlet2/testServlet2.iml" filepath="$PROJECT_DIR$/testServlet2/testServlet2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testServlet3/testServlet3.iml" filepath="$PROJECT_DIR$/testServlet3/testServlet3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testServlet4/testServlet4.iml" filepath="$PROJECT_DIR$/testServlet4/testServlet4.iml" />
+    </modules>
+  </component>
+</project>

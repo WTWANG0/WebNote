@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/jspDemo1/jspDemo1.iml" filepath="$PROJECT_DIR$/jspDemo1/jspDemo1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jspDemo2/jspDemo2.iml" filepath="$PROJECT_DIR$/jspDemo2/jspDemo2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jspDemo3/jspDemo3.iml" filepath="$PROJECT_DIR$/jspDemo3/jspDemo3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jspDemo4/jspDemo4.iml" filepath="$PROJECT_DIR$/jspDemo4/jspDemo4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testJSP.iml" filepath="$PROJECT_DIR$/testJSP.iml" />
+    </modules>
+  </component>
+</project>
