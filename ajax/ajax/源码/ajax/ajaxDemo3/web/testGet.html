@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jquery.min.js"></script>
+    <script>
+        function testAjax(){
+
+
+            $.get(
+                "servlet1.do",
+                {"username":"zhangsan","password":"123456"},
+                function(list){
+                    $.each(list,function(i,e){
+                        console.log(e)
+                    })
+                 },
+                "json")
+
+            console.log("------------------------------")
+            $.getJSON(
+                "servlet1.do",
+                {"username":"zhangsan","password":"123456"},
+                function(list){
+                    $.each(list,function(i,e){
+                        console.log(e)
+                    })
+                })
+
+            console.log("------------------------------")
+            $.post(
+                "servlet1.do",
+                {"username":"zhangsan","password":"123456"},
+                function(list){
+                    $.each(list,function(i,e){
+                        console.log(e)
+                    })
+                },
+                "json")
+
+        }
+    </script>
+</head>
+<body>
+
+<input type="button" value="测试" onclick="testAjax()">
+
+
+</body>
+</html>

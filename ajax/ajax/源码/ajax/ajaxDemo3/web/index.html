@@ -1,0 +1,43 @@
+
+<html>
+<head>
+    <title>$Title$</title>
+    <meta charset="UTF-8"/>
+    <script src="js/jquery.min.js"></script>
+    <script>
+
+        function checkUname(){
+            // 获取输入框中的内容
+            if(null == $("#unameI").val() || '' == $("#unameI").val()){
+                $("#unameInfo").text("用户名不能为空");
+                return;
+            }
+            $("#unameInfo").text("");
+
+            // 通过jQuery.ajax() 发送异步请求
+            $.ajax(
+                    {
+                        type:"GET",// 请求的方式 GET  POST
+                        url:"unameCheckServlet.do?", // 请求的后台服务的路径
+                        data:"uname="+$("#unameI").val(),// 提交的参数
+                        success:function(info){ // 响应成功执行的函数
+                            $("#unameInfo").text(info)
+                        }
+                    }
+            )
+
+        }
+
+
+
+    </script>
+</head>
+<body>
+<form action="myServlet1.do" >
+    用户名:<input id="unameI" type="text" name="uname" onblur="checkUname()">
+    <span id="unameInfo" style="color: red"></span><br/>
+    密码:<input type="password" name="pwd"><br/>
+    <input type="submit" value="提交按钮">
+</form>
+</body>
+</html>
